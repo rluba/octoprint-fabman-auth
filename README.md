@@ -33,6 +33,10 @@ accessControl:
     # default: https://fabman.io/api/v1/
     url: https://fabman.io/api/v1/
 
+    # Your Fabman account ID
+    # You can get your account ID by either fetching the list of accounts you have access to (https://fabman.io/api/v1/documentation#!/accounts/getAccounts) or looking at the URL of your Fabman webapp (https://fabman.io/manage/<accountId>/)
+    accountId: 123
+
     # Only give rights to users who have resource with id specified in resourceIds
     # default: false
     restrictAccess: true
